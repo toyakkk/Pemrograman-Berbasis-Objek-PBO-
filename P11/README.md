@@ -91,18 +91,6 @@ Tanpa melakukan perubahan pada class `CheckoutService`, sistem dapat mendukung m
 
 ---
 
-## Cara Menjalankan Program
-
-1. Pastikan Python 3.x sudah terinstall
-2. Jalankan file Python utama:
-
-   ```bash
-   python refactor_solid.py
-   ```
-3. Program akan menampilkan proses checkout untuk beberapa metode pembayaran
-
----
-
 ## Kesimpulan
 
 Refactoring yang dilakukan berhasil meningkatkan kualitas kode dengan menerapkan prinsip SOLID. Kode menjadi lebih modular, mudah dirawat, serta fleksibel untuk pengembangan fitur di masa depan.
