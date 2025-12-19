@@ -18,11 +18,13 @@ Setelah menyelesaikan proyek ini, mahasiswa diharapkan mampu:
 - Menguji boundary condition dan nilai float
 
 ## Struktur Proyek
+P14/
 ├── diskon_service.py
 ├── test_diskon.py
 ├── test_diskon_advanced.py
 ├── DEBUG_REPORT.md
-└── README.md
+├── README.md
+
 
 
 ## Teknologi yang Digunakan
@@ -70,4 +72,5 @@ Mata Kuliah : Pemrograman Berorientasi Objek (OOP)
 
 ## Referensi
 - Lutz, M. (2013). Learning Python
+
 - Guttag, J. V. (2016). Introduction to Computation and Programming Using Python
