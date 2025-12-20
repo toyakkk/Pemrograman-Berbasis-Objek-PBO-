@@ -2,6 +2,13 @@ from abc import ABC, abstractmethod
 from dataclasses import dataclass
 import logging
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(name)s - %(message)s"
+)
+
+LOGGER = logging.getLogger('Checkout')
+
 #model sederhana
 @dataclass
 class Order:
