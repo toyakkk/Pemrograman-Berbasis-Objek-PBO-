@@ -88,3 +88,12 @@ toya = {
     "lulus_prasyarat": False
 }
 validator_manager.validate(toya)
+
+print("\n Memulai Validasi Mahasiswa: Devino")
+devino = {
+    "nama": "devino",
+    "sks": 18,
+    "lulus_prasyarat": True,
+    "ipk": 3.0
+}
+validator_manager.validate(devino)
