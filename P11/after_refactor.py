@@ -87,7 +87,7 @@ checkout_cc = CheckoutService(
     payment_processor=CreditCardProcessor(),
     notifier=EmailNotifier()
 )
-print(" --- Skenario 1: Kartu Kredit")
+print(" --- Skenario 1: Kartu Kredit ---")
 checkout_cc.run_checkout(andi_order)
 
 print()
@@ -99,5 +99,5 @@ checkout_qris = CheckoutService(
     payment_processor=QrisProcessor(),
     notifier=EmailNotifier()
 )
-print( "--- Skenario 2: QRIS")
+print( " --- Skenario 2: QRIS --- ")
 checkout_qris.run_checkout(budi_order)
